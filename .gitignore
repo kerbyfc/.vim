@@ -1,0 +1,13 @@
+custom/zsh
+.DS_Store
+backups
+view
+*un~
+.netrwhist
+tmp
+spell
+after/.vimrc.after
+.vundles.local
+sessions
+.netrwhist
+tags
