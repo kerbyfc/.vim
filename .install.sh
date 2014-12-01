@@ -1,4 +1,7 @@
 #!/bin/bash
+
+git clone git@github.com:kerbyfc/.vim.git ~/.vim
+
 ln -s ~/.vim/vimrc.vim ~/.vimrc
 ln -s ~/.vim/gvimrc.vim ~/.gvimrc
 cp ~/.vim/.fonts/*.otf ~/Library/Fonts
