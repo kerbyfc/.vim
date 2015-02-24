@@ -11,3 +11,4 @@ after/.vimrc.after
 sessions
 .netrwhist
 tags
+bundle
