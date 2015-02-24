@@ -1,6 +1,6 @@
 #!/bin/bash
 
-git clone git@github.com:kerbyfc/.vim.git
+git clone https://github.com/kerbyfc/.vim.git
 
 ln -s ~/.vim/vimrc.vim ~/.vimrc
 ln -s ~/.vim/gvimrc.vim ~/.gvimrc
