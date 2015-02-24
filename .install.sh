@@ -15,7 +15,7 @@ echo "INTALL NEOBUNDLE"
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
 
 echo "INSTALL BUNDLES"
-./bundle/neobundle.vim/bin/neoinstall
+~/.vim/bundle/neobundle.vim/bin/neoinstall
 
 echo "INSTALL YOUCOMPLETME"
 bash ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
