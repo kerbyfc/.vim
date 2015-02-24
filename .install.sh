@@ -10,9 +10,11 @@ ln -s ~/.vim/gvimrc.vim ~/.gvimrc
 echo "COPY FONTS"
 cp ~/.vim/.fonts/*.otf ~/Library/Fonts
 
-echo "INSTALL YOUCOMPLETME"
-bash ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
-
 echo "INTALL NEOBUNDLE"
 # most last as to avoid exception if folder already exists
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
+
+echo "INSTALL YOUCOMPLETME"
+bash ~/.vim/bundle/YouCompleteMe/install.sh --clang-completer
+
+
