@@ -14,6 +14,7 @@ echo "INTALL NEOBUNDLE"
 # most last as to avoid exception if folder already exists
 curl https://raw.githubusercontent.com/Shougo/neobundle.vim/master/bin/install.sh | sh
 
+echo "INSTALL BUNDLES"
 ./bundle/neobundle.vim/bin/neoinstall
 
 echo "INSTALL YOUCOMPLETME"
