@@ -9,6 +9,7 @@ if has("gui_running")
   set t_Co=256
   autocmd VimEnter * set guitablabel=%N:\ %t\ %M
   set lines=80
+  set linespace=2
   set columns=200
   if has("gui_gtk2")
     set guifont=Inconsolata\ XL\ 10,Inconsolata\ 15,Monaco\ 12

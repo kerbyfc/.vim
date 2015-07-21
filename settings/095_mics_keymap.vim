@@ -47,3 +47,5 @@ nnoremap <Leader>sf :so %<CR>
 
 " unmap !man <occurance> on K
 nmap K <Nop>
+
+nnoremap <D-s> :w<CR>

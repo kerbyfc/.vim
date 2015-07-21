@@ -13,7 +13,7 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  APPEARANCE
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle "chrisbra/color_highlight.git"
-NeoBundle "bling/vim-airline"
+" NeoBundle "bling/vim-airline"
 NeoBundle "junegunn/goyo.vim"
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  COMPLETION
@@ -80,14 +80,14 @@ NeoBundle "vim-ruby/vim-ruby.git"
 NeoBundle "Keithbsmiley/rspec.vim"
 
 " javascript lang family
-NeoBundle "gfxmonk/vim-stratifiedjs"
+" NeoBundle "gfxmonk/vim-stratifiedjs"
+" NeoBundle "othree/javascript-libraries-syntax.vim"
+" NeoBundle "itspriddle/vim-jquery.git"
+" NeoBundle "dart-lang/dart-vim-plugin"
+" NeoBundle "mxw/vim-xhp"
+" NeoBundle "mxw/vim-jsx"
 NeoBundle "pangloss/vim-javascript"
-NeoBundle "othree/javascript-libraries-syntax.vim"
 NeoBundle "kchmck/vim-coffee-script"
-NeoBundle "itspriddle/vim-jquery.git"
-NeoBundle "dart-lang/dart-vim-plugin"
-NeoBundle "mxw/vim-xhp"
-NeoBundle "mxw/vim-jsx"
 
 " erlang
 NeoBundle "jimenezrick/vimerl"
@@ -129,25 +129,23 @@ NeoBundle 'tpope/vim-vividchalk'
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - VCS
 " global
-NeoBundle "mbbill/undotree"
+" NeoBundle "mbbill/undotree"
 
 " git
-NeoBundle "gregsexton/gitv"
-NeoBundle "mattn/gist-vim"
+" NeoBundle "gregsexton/gitv"
+" NeoBundle "mattn/gist-vim"
 NeoBundle "tpope/vim-fugitive"
 NeoBundle "tpope/vim-git"
-NeoBundle 'airblade/vim-gitgutter'
-
-
+" NeoBundle 'airblade/vim-gitgutter'
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  MISC
-NeoBundle "mattn/webapi-vim.git"
+" NeoBundle "mattn/webapi-vim.git"
 NeoBundle "tomtom/tlib_vim.git"
-NeoBundle "vim-scripts/AnsiEsc.vim.git"
-NeoBundle "waylan/vim-markdown-extra-preview"
-NeoBundle "xolox/vim-misc"
-NeoBundle "xolox/vim-session"
-NeoBundle "vim-scripts/lastpos.vim"
+" NeoBundle "vim-scripts/AnsiEsc.vim.git"
+" NeoBundle "waylan/vim-markdown-extra-preview"
+" NeoBundle "xolox/vim-misc"
+" NeoBundle "xolox/vim-session"
+" NeoBundle "vim-scripts/lastpos.vim"
 NeoBundle "tpope/vim-dispatch"
 
 " macros

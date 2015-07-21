@@ -13,8 +13,10 @@ noremap <Right> <NOP>
 " navigation in insert mode
 inoremap <C-l> <C-o>a
 inoremap <C-h> <C-o>h
+inoremap <C-j> <C-o>j
+inoremap <C-k> <C-o>k
 
-" navigation
+" navigation to the end and to the begind of lines
 nnoremap <D-h> ^
 nnoremap <D-l> $
 inoremap <D-h> <C-O>I
