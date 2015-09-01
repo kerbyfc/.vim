@@ -31,15 +31,15 @@
 "                                                      print "hello ", name
 "                                                             VVVVVV
 
-onoremap an :<c-u>call <SID>NextTextObject('a', '/')<cr>
-xnoremap an :<c-u>call <SID>NextTextObject('a', '/')<cr>
-onoremap in :<c-u>call <SID>NextTextObject('i', '/')<cr>
-xnoremap in :<c-u>call <SID>NextTextObject('i', '/')<cr>
+onoremap an :<c-u>call <SID>NextTextObject('a', '/')<CR>
+xnoremap an :<c-u>call <SID>NextTextObject('a', '/')<CR>
+onoremap in :<c-u>call <SID>NextTextObject('i', '/')<CR>
+xnoremap in :<c-u>call <SID>NextTextObject('i', '/')<CR>
 
-onoremap al :<c-u>call <SID>NextTextObject('a', '?')<cr>
-xnoremap al :<c-u>call <SID>NextTextObject('a', '?')<cr>
-onoremap il :<c-u>call <SID>NextTextObject('i', '?')<cr>
-xnoremap il :<c-u>call <SID>NextTextObject('i', '?')<cr>
+onoremap al :<c-u>call <SID>NextTextObject('a', '?')<CR>
+xnoremap al :<c-u>call <SID>NextTextObject('a', '?')<CR>
+onoremap il :<c-u>call <SID>NextTextObject('i', '?')<CR>
+xnoremap il :<c-u>call <SID>NextTextObject('i', '?')<CR>
 
 
 function! s:NextTextObject(motion, dir)
@@ -61,7 +61,7 @@ function! s:NextTextObject(motion, dir)
     endif
 
     " Find the next opening-whatever.
-    execute "normal! " . a:dir . c . "\<cr>"
+    execute "normal! " . a:dir . c . "\<CR>"
 
     if a:motion ==# 'a'
         " If we're doing an 'around' method, we just need to select around it

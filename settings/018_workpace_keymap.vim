@@ -18,3 +18,8 @@ nnoremap <D-Up> <C-w>+
 nnoremap <D-Down> <C-w>-
 nnoremap <D-Left> <C-w><
 nnoremap <D-Right>  <C-w>>
+
+" tabs
+nnoremap <S-K> :tabnext<CR>
+nnoremap <S-J> :tabprevious<CR>
+

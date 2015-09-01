@@ -25,3 +25,4 @@ nnoremap <silent> <C-t> :CtrlPTag<Cr>
 
 " Cmd-Shift-P to clear the cache
 nnoremap <D-P> :ClearCtrlPCache<CR>
+

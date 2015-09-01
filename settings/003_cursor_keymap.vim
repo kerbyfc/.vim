@@ -18,7 +18,10 @@ inoremap <C-k> <C-o>k
 
 " navigation to the end and to the begind of lines
 nnoremap <D-h> ^
+vnoremap <D-h> ^
 nnoremap <D-l> $
+vnoremap <D-l> $
+
 inoremap <D-h> <C-O>I
 inoremap <D-l> <C-O>A
 

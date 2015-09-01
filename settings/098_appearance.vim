@@ -1,4 +1,5 @@
 " favorite themes
+
 let t:themes = ['solarized', 'molokai', 'tomorrow-night']
 let t:themefile = '/.theme'
 

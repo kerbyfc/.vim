@@ -13,15 +13,18 @@ NeoBundleFetch 'Shougo/neobundle.vim'
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  APPEARANCE
 NeoBundle 'flazz/vim-colorschemes'
 NeoBundle "chrisbra/color_highlight.git"
-" NeoBundle "bling/vim-airline"
+NeoBundle "bling/vim-airline"
+NeoBundle "mkitt/tabline.vim"
+NeoBundle "gcmt/taboo.vim"
 NeoBundle "junegunn/goyo.vim"
+NeoBundle "blueyed/vim-diminactive"
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  COMPLETION
 " global
-NeoBundle "szw/vim-tags"
+" NeoBundle "szw/vim-tags"
 
 NeoBundle "Raimondi/delimitMate"
-NeoBundle "SirVer/ultisnips"
+" NeoBundle "SirVer/ultisnips"
 NeoBundle "Valloric/YouCompleteMe"
 NeoBundle "tpope/vim-repeat.git"
 
@@ -40,8 +43,10 @@ NeoBundle "scrooloose/nerdtree.git"
 NeoBundle "jistr/vim-nerdtree-tabs.git"
 NeoBundle "rking/ag.vim"
 
-" file
+" code jumper
 NeoBundle "lokaltog/vim-easymotion"
+
+" to be able to show file tree with current file in current buffer
 NeoBundle "tpope/vim-vinegar"
 
 " buffers
@@ -65,7 +70,7 @@ NeoBundle "terryma/vim-multiple-cursors"
 NeoBundle "godlygeek/tabular"
 NeoBundle "tpope/vim-commentary"
 NeoBundle "vim-scripts/vim-auto-save"
-
+NeoBundle "ntpeters/vim-better-whitespace"
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  SYNTAX
 " ruby
@@ -128,14 +133,13 @@ NeoBundle 'tpope/vim-vividchalk'
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - VCS
 " global
-" NeoBundle "mbbill/undotree"
+NeoBundle "mbbill/undotree"
 
 " git
-" NeoBundle "gregsexton/gitv"
 " NeoBundle "mattn/gist-vim"
 NeoBundle "tpope/vim-fugitive"
-NeoBundle "tpope/vim-git"
-" NeoBundle 'airblade/vim-gitgutter'
+NeoBundle "gregsexton/gitv"
+NeoBundle 'airblade/vim-gitgutter'
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  MISC
 " NeoBundle "mattn/webapi-vim.git"

@@ -44,6 +44,7 @@ endif
 " Disable the scrollbars (NERDTree)
 set guioptions-=r
 set guioptions-=L
+set guioptions-=e
 
 " Disable the macvim toolbar
 set guioptions-=T
