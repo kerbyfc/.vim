@@ -1,5 +1,5 @@
 if has("gui_running")
-  set guifont=Menlo:h12
+  set guifont=Menlo:h14
   set transparency=3
   set fuopt+=maxhorz
   set fu
@@ -11,11 +11,6 @@ if has("gui_running")
   set lines=80
   set linespace=2
   set columns=200
-  if has("gui_gtk2")
-    set guifont=Inconsolata\ XL\ 10,Inconsolata\ 15,Monaco\ 12
-  else
-    set guifont=Menlo:h12
-  end
 
   if has("gui_macvim")
     " deny hide on cmd-h

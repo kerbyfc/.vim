@@ -1,2 +1,2 @@
-nmap ,ag :Ag ""<Left>
-nmap ,af :AgFile ""<Left>
+nmap <Leader>ag :Ag ""<Left>
+nmap <Leader>af :AgFile ""<Left>

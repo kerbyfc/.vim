@@ -16,7 +16,7 @@ NeoBundle "chrisbra/color_highlight.git"
 NeoBundle "bling/vim-airline"
 NeoBundle "mkitt/tabline.vim"
 NeoBundle "gcmt/taboo.vim"
-NeoBundle "junegunn/goyo.vim"
+" NeoBundle "junegunn/goyo.vim"
 NeoBundle "blueyed/vim-diminactive"
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  COMPLETION
@@ -139,7 +139,8 @@ NeoBundle "mbbill/undotree"
 " NeoBundle "mattn/gist-vim"
 NeoBundle "tpope/vim-fugitive"
 NeoBundle "gregsexton/gitv"
-NeoBundle 'airblade/vim-gitgutter'
+" NeoBundle 'airblade/vim-gitgutter'
+NeoBundle "vim-signify"
 
 "- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -  MISC
 " NeoBundle "mattn/webapi-vim.git"

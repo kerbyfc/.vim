@@ -4,11 +4,6 @@
 " close buffer
 nnoremap <C-q> :q<CR>
 
-" ,q to toggle quickfix window (where you have stuff like Ag)
-" ,oq to open it back up (rare)
-nmap <silent> ,qc :cclose<CR>
-nmap <silent> ,qo :copen<CR>
-
 " Create window splits easier
 nnoremap <C-_> <c-w>s
 nnoremap <C-\> <c-w>v
@@ -20,6 +15,8 @@ nnoremap <D-Left> <C-w><
 nnoremap <D-Right>  <C-w>>
 
 " tabs
-nnoremap <S-K> :tabnext<CR>
-nnoremap <S-J> :tabprevious<CR>
+nmap K <Nop>
+nmap J <Nop>
+nnoremap <S-k> :tabnext<CR>
+nnoremap <S-j> :tabprevious<CR>
 

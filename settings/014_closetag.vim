@@ -1,1 +1,1 @@
-let g:closetag_html_style=1
+let g:closetag_html_style = 1

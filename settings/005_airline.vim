@@ -9,6 +9,10 @@ let g:airline_symbols = {}
 let g:airline_symbols.branch   = '⭠ '
 let g:airline_symbols.readonly = '⭤'
 let g:airline_symbols.space    = ' '
+
 let g:airline_symbols.linenr   = '⭡'
 
 let g:airline_theme='molokai'
+
+let g:airline#extensions#hunks#enabled=0
+let g:airline#extensions#branch#enabled=0

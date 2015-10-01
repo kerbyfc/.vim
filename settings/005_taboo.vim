@@ -7,4 +7,9 @@ set sessionoptions+=tabpages,globals
 " %w: the number of windows opened into the tab, but only on the active tab
 " %W: the number of windows opened into the tab, on each tab
 " %m: the modified flag
-let g:taboo_tab_format="  %a%m "
+
+let g:taboo_tab_format = "  [ %a ]"
+let g:taboo_renamed_tab_format = "  { %l }"
+let g:taboo_tabline = 1
+
+nnoremap <Leader>tn :TabooRename <Right>
