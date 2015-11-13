@@ -37,4 +37,6 @@ command! -complete=customlist,ThemesList -nargs=* Theme call Theme(<f-args>)
 command! -complete=customlist,ThemesList -nargs=* ProjTheme call ProjTheme(<f-args>)
 command! -nargs=* FixTheme call FixTheme(<f-args>)
 
+nnoremap <Leader>pj :%!python -m json.tool<CR>
+
 au VimEnter * so ~/.vim/settings/099_colors.vim

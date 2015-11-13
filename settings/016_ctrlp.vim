@@ -16,6 +16,7 @@ let g:ctrlp_show_hidden = 1
 let g:ctrlp_switch_buffer = 0
 let g:ctrlp_working_path_mode = 0
 let g:ctrlp_open_multiple_files = 'v'
+let g:ctrlp_funky_syntax_highlight = 1
 
 nnoremap <silent> <C-b> :CtrlPBuffer<CR>
 nnoremap <silent> <C-f> :CtrlP<CR>

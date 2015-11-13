@@ -19,3 +19,5 @@ hi! DiffText                    ctermbg=102 cterm=bold
 hi! SignifySignAdd    cterm=bold ctermbg=237  ctermfg=119
 hi! SignifySignDelete cterm=bold ctermbg=237  ctermfg=167
 hi! SignifySignChange cterm=bold ctermbg=237  ctermfg=227
+
+hi! Search guifg=green guibg=NONE
