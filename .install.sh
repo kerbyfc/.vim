@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo "CLEANUP"
+rm -rf ~/.vim
+
 echo "CLONE REPO"
 git clone https://github.com/kerbyfc/.vim.git
 
