@@ -9,6 +9,8 @@ git clone https://github.com/kerbyfc/.vim.git
 echo "CREATE ALIASES"
 ln -s ~/.vim/vimrc.vim ~/.vimrc
 ln -s ~/.vim/gvimrc.vim ~/.gvimrc
+ls -s ~/.vim/vimrc.vim ~/.vim/vimrc
+ls -s ~/.vim/gvimrc.vim ~/.vim/gvimrc
 
 echo "COPY FONTS"
 cp ~/.vim/.fonts/*.otf ~/Library/Fonts
